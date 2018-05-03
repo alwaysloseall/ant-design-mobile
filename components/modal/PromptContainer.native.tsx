@@ -83,7 +83,7 @@ export default class PropmptContainer extends React.Component<PropmptContainerPr
       });
     }
 
-    const footer = callbacks.map((button) => {
+    const footer = callbacks.map((button) => { //asdasdsa
       const orginPress = button.onPress || function () {};
       button.onPress = () => {
         const res = orginPress();
